@@ -8,8 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      # - name: "hello-action"
-      #   uses: ./.github/actions/hello-world
-      #   with:
-      #     firstGreeting: "Learning Lab User"
-      #     thirdGreeting: "Try the other time."
+      - name: "hello-action"
+        uses: ./.github/actions/hello-world
+        with:
+          firstGreeting: "Learning Lab User"
+          thirdGreeting: "Try the other time."
