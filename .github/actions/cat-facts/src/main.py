@@ -21,7 +21,7 @@ def select_random_fact(fact_arr):
     return fact_arr[random.randint(0, len(fact_list)+1)]
 
 random_fact = select_random_fact(fact_list)
-
+fact_list.append("Jacky test")
 # Print the individual randomly returned cat-fact
 print("Jacky test: ", fact_list)
 
