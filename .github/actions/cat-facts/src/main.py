@@ -23,7 +23,7 @@ def select_random_fact(fact_arr):
 random_fact = select_random_fact(fact_list)
 
 # Print the individual randomly returned cat-fact
-print("Jacky test: ", random_fact)
+print("Jacky test: ", fact_list)
 
 # Set the fact-output of the action as the value of random_fact
 print(f"::set-output name=fact::{random_fact}")
